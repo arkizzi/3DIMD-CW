@@ -6,7 +6,52 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FitGrandma_Brows_MAT1
+    second: {fileID: 2100000, guid: 326a4abcbbe257942b1207152d91ed72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FitGrandma_Eyes_MAT1
+    second: {fileID: 2100000, guid: cd1447086819b7249b172beb2a739277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FitGrandma_Mouth_MAT1
+    second: {fileID: 2100000, guid: 0efd309041e4d9944a83111adcaac908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grandma_MAT
+    second: {fileID: 2100000, guid: 83e0c3006f92d6548b35feb9dc73dc22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lens_MAT
+    second: {fileID: 2100000, guid: e858fbf447bb87e44ba15eb8e157b11e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FitnessGrandma_FaceAnimMap
+    second: {fileID: 2800000, guid: 7ad69ad98461fd5478b3e7e5bce49bec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FitnessGrandma_diffuse
+    second: {fileID: 2800000, guid: 479acf6bb5d4172449ef925991e826d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FitnessGrandma_normal
+    second: {fileID: 2800000, guid: bbaaf9d9f3461424e907ad9464457059, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FitnessGrandma_spec
+    second: {fileID: 2800000, guid: 4edea37e59786e5469584c6146c1bcfb, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

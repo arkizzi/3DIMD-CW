@@ -161,6 +161,12 @@ public class twoDimensionalAnimationStateController : MonoBehaviour
 		bool rightPressed = Input.GetKey(KeyCode.D);
 		bool runPressed = Input.GetKey(KeyCode.LeftShift);
 
+		//dance fun XD
+		if (Input.GetKeyDown(KeyCode.Alpha1) && velocityX ==0.0f && velocityZ ==0.0f)
+        {
+			animator.GetComponent<Animator>().Play("SDance");
+		}
+
 		//set current maxVelocity
 		float currentMaxVelocity = runPressed ? maxRunVelocity : maxWalkVelocity; // if runpressed true it will set velo to maxrun if not max walk (Terneray operator)
 
